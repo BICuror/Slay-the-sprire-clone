@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16519648}
   - component: {fileID: 16519647}
+  - component: {fileID: 16519649}
   m_Layer: 0
   m_Name: EntryPoint
   m_TagString: Untagged
@@ -152,8 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef3587fad394db40bdb6a31f7690bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerData: {fileID: 11400000, guid: bfd3fe62be5e9e94eba17aab1e3dae70, type: 2}
-  _cardDealer: {fileID: 314985605}
+  _playerDataSetter: {fileID: 16519649}
 --- !u!4 &16519648
 Transform:
   m_ObjectHideFlags: 0
@@ -169,6 +169,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &16519649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16519646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31d8da8e26715c4f81934b92242ba52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerData: {fileID: 11400000, guid: bfd3fe62be5e9e94eba17aab1e3dae70, type: 2}
 --- !u!1 &23229981
 GameObject:
   m_ObjectHideFlags: 0
